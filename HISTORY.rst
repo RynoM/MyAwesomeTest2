@@ -7,3 +7,9 @@ History
 ---------------------
 
 * First code creation
+
+
+0.1.0 (27-10-2021)
+------------------
+
+* added first class to my lib
