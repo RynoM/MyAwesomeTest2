@@ -48,3 +48,10 @@ __status__ = '''Development'''  # "Prototype", "Development", "Production".
 LOGGER_BASENAME = '''myawesometest2lib'''
 LOGGER = logging.getLogger(LOGGER_BASENAME)
 LOGGER.addHandler(logging.NullHandler())
+
+
+class WhoAmi:  # pylint: disable=too-few-public-methods
+    """Who is me?"""
+
+    def __init__(self):
+        self.name = "Ryno"
